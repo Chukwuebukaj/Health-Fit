@@ -1,0 +1,180 @@
+.colored {
+    position: relative;
+    top: -15px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.384)),
+        var(--img);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.colored h1 {
+    font-size: 25px !important;
+    line-height: 40px;
+    align-items: center;
+    color: white;
+}
+
+
+.summary,
+.why,
+.exercise,
+.how {
+    margin: 15px 25px;
+    font-size: 13px;
+}
+
+.why h2,
+.exercise h2,
+.how h2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.aerobic {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.colored h6 {
+    color: white;
+    font-size: 18px;
+    top: 180px;
+    position: relative;
+    letter-spacing: 3px;
+}
+
+.why h6 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Tabs */
+
+.tabs {
+    background: #057a8d !important;
+    font-size: 18px;
+    position: relative;
+    top: -15px;
+    list-style-type: none;
+}
+
+
+li {
+    list-style-type: disc;
+
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.image img {
+    height: 350px;
+    margin: 20px;
+}
+
+.why h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.image-text button{
+ 
+        padding: 12px;
+        width: 150px;
+        background: #057a8d;
+        color: #fff;
+        border: none;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 25px;
+        border-radius: 14px;
+        background: linear-gradient(145deg, #057a8d, #057a8d);
+        box-shadow: 8px 8px 16px #eee,
+            -8px -8px 16px rgb(216, 215, 215);
+    
+}
+.image-text button:hover{
+    color: #eee;
+    background: black;
+}
+
+@media screen and (min-width:768px) {
+    .image {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .image-text {
+        width: 50% !important;
+        margin-left: 40px;
+        font-size: 14px;
+
+    }
+
+    .image-text h2 {
+        font-size: 17px;
+    }
+
+    .image img {
+        height: 290px;
+    }
+    .image-text button{
+        padding: 15px;
+        width: 180px;
+      
+    }
+
+    .tabs {
+        font-size: 38px !important;
+    }
+
+    .colored {
+        position: relative;
+        top: -30px;
+        height: 320px;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1000px) {
+
+    .image img {
+        height: 350px;
+    }
+
+    .colored {
+        height: 350px;
+
+    }
+
+    .colored h1 {
+        font-size: 30px;
+    }
+
+    .why h6 {
+        text-align: center;
+        font-size: 27px;
+        font-weight: 600;
+    }
+}

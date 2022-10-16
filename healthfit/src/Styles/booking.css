@@ -1,0 +1,125 @@
+.booking-header{
+    text-align: center;
+}
+.appoint{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 290px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(2, 2, 2, 0.336), rgba(0, 0, 0, 0.651)),
+        var(--img);
+        align-items: center;
+        color: #fff;
+}
+.appoint h2, .appoint p{
+    margin: 5px 20px;
+    align-items: center;
+}
+.appoint h2{
+    font-size: 22px;
+}
+.appoint p{
+    font-size: 15px;
+}
+.bookings{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.calendar{
+    width: 100%;
+    font-size: 14px;
+    
+}
+
+.inp-con{
+    display: flex;
+ 
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+.one{
+    background: #057a8d;
+    width: 380px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 80px;
+    border: none;
+    align-items: center;
+    color: #fff;
+}
+.one h3, .one h4{
+    margin: 15px;
+}
+.one h3{
+    font-size: 16px;
+}
+.one h4{
+    font-size: 14px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.book-btn{
+    width: 200px;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    background: #057a8d;
+    color: #fff;
+
+}
+.cal{
+    margin-left: 10px;
+}
+.one svg{
+    color: #f1c111;
+    font-size: 20px;
+}
+
+.book-btn:hover, .one:hover{
+    color: #fff;
+    background: black;
+    transition: 300ms ease-in-out;
+}
+.book{
+    margin: 25px;
+    text-align: center;
+
+}
+@media screen and (min-width:700px){
+    .bookings{
+        flex-direction: row;
+    }
+
+    .inp-con{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .one{
+        width: 400px;
+    }
+   .appoint{
+       width: 900px;
+       height: 400px;
+   }
+   .calendar{
+       height: 400px;
+   }
+   
+}

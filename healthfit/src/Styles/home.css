@@ -1,0 +1,352 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    overflow-x: hidden;
+    background: #eee;
+
+}
+
+/* NAV */
+
+.logo img{
+    height: 37px;
+    width: 39px;
+   position: relative;
+   left: -5px;
+}
+.brand-name {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    margin-left: 2rem;
+}
+
+.nav-body {
+    position: relative;
+    left: 30px;
+    font-size: 13px;
+    top: -2px;
+    align-items: center;
+}
+
+.nav-link {
+    color: #000;
+    margin: 5px;
+}
+
+
+.navbar {
+    background: #057a8d !important;
+    height: 70px !important;
+}
+
+.toggle {
+    background: transparent !important;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    color: #fff!important;
+}
+
+.toggle>* {
+    color: #fff !important;
+}
+
+.canvas {
+    width: 50% !important;
+    background: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-menu {
+    font-size: 15px;
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+
+}
+
+
+
+/* HEADER */
+
+.header-text {
+    text-align: left;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+
+.header-text h1 {
+    font-size: 28px;
+    line-height:45px;
+    font-weight: 500;
+}
+
+.header-text p {
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 26px;
+}
+
+.header-text button {
+    padding: 12px;
+    width: 150px;
+    background: #057a8d;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 25px;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #057a8d, #057a8d);
+    box-shadow: 8px 8px 16px rgb(39, 38, 38),
+        -8px -8px 16px rgb(38, 38, 39);
+}
+.header-text button:hover{
+background: #eee;
+color: #000;
+transition: 300ms ease-in-out;
+}
+.big-container {
+    position: relative;
+    display: block;
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 560px;
+    top: -25px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(2, 2, 2, 0.192), rgba(0, 0, 0, 0.199)),
+        var(--img);
+}
+
+/* SERVICES */
+.services{
+    position: relative;
+}
+.card {
+    margin: 25px 20px;
+    align-items: center;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 27px;
+    margin: 55px 15px!important;
+    font-weight: 600;
+    
+}
+
+.title {
+    font-size: 16px;
+    color: #057a8d;
+    margin: 10px 0px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.service-btn{
+    padding: 9px;
+    width: 130px;
+    background: #057a8d;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #057a8d, #057a8d);
+    box-shadow: 8px 8px 16px rgb(219, 214, 214),
+        -8px -8px 16px rgb(223, 223, 223);
+
+}
+.service-btn:hover{
+    background: #000;
+    transition: 500ms ease-in-out;
+}
+@media screen and (min-width:576px) {
+
+
+    /* NAV */
+    .logo img{
+        height: 37px;
+        width: 41px;
+       position: relative;
+       left: -5px;
+    }
+
+    .brand-name {
+        font-size: 24px;
+    }
+
+    .nav-body {
+        position: relative;
+        left: 7%;
+        font-size: 0.3rem !important;
+        top: -31px;
+    }
+
+    .nav-link {
+        color: #fff;
+        margin: 5px;
+        font-size:13px;
+    }
+
+
+    .navbar {
+        height: 80px!important;
+    }
+
+
+    /* HEADER */
+
+    .header-text {
+        position: relative;
+        top: 40px;
+        left: 35px;
+    }
+
+    .header-text p {
+        font-size: 15px;
+    }
+
+    .header-text button {
+        width: 200px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+
+    .big-container {
+
+        height: 550px;
+        top: -25px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+
+    /* NAV */
+    .logo img{
+        height: 38px;
+        width: 40px;
+       position: relative;
+       left: -5px;
+    }
+
+    .brand-name {
+        font-size: 25px;
+
+    }
+
+    .nav-body {
+        position: relative;
+        left: 10%;
+        top: -31px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+
+    /* HEADER */
+
+    .header-text {
+        position: relative;
+        top: 40px;
+        left: 35px;
+    }
+
+    .header-text h1 {
+        font-size: 29px;
+
+    }
+
+    .header-text p {
+        font-size: 15px;
+    }
+
+    .header-text button {
+        padding: 13px;
+        width: 200px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+
+    /* NAV */
+    .logo img{
+        height: 40px;
+        width: 45px;
+       position: relative;
+       left: -5px;
+    }
+    .brand-name {
+        font-size: 25px;
+        margin-left: 5%;
+    }
+
+    .nav-body {
+        position: relative;
+        left: 22%;
+        top: -31px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+
+    .navbar {
+        height: 90px !important;
+        background-attachment: fixed;
+    }
+
+
+    /* HEADER */
+
+    .header-text {
+        position: relative;
+        top: 55px;
+        left: 75px;
+    }
+
+    .header-text h1 {
+     font-size: 32px;
+
+    }
+
+    .header-text p {
+        font-size: 16px;
+    }
+
+    .header-text button {
+        width: 210px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .big-container {
+        overflow-x: hidden !important;
+
+    }
+}

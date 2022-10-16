@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ea33334.css",
+    "main.js": "/static/js/main.d0e0fcd0.js",
+    "static/js/496.e6811f3b.chunk.js": "/static/js/496.e6811f3b.chunk.js",
+    "static/media/mental-health.jpg": "/static/media/mental-health.b5381998a4137b81c562.jpg",
+    "static/media/work2.jpg": "/static/media/work2.e786e1ee86fbc184da3d.jpg",
+    "static/media/about-1.jpg": "/static/media/about-1.6d3adb19d96894c9b389.jpg",
+    "static/media/work3.jpg": "/static/media/work3.948227c40e46c0e78ad4.jpg",
+    "static/media/about-2.jpg": "/static/media/about-2.3388e5fe476722bc0b41.jpg",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.a8e0329cc1cbf884c7c8.jpg",
+    "static/media/workout-app.png": "/static/media/workout-app.5329533fbccd8babf29d.png",
+    "static/media/yoga-class.jpg": "/static/media/yoga-class.03c3fd265728aaf8c7a3.jpg",
+    "static/media/cardio-class.jpg": "/static/media/cardio-class.493ae81cac514c1d0d79.jpg",
+    "static/media/crossfit-class.jpg": "/static/media/crossfit-class.21bd54065179b4814760.jpg",
+    "static/media/fit.webp": "/static/media/fit.9949d1dcc0b62ed09cfc.webp",
+    "static/media/team-image.jpg": "/static/media/team-image.51ff977584638898b868.jpg",
+    "static/media/fit-gitl.jpg": "/static/media/fit-gitl.fbcd73d15efe1cf5335e.jpg",
+    "static/media/fit-small.jpg": "/static/media/fit-small.fc7015743f379497bc13.jpg",
+    "static/media/fit-logo.png": "/static/media/fit-logo.ed9454ede1b578e3153b.png",
+    "index.html": "/index.html",
+    "main.9ea33334.css.map": "/static/css/main.9ea33334.css.map",
+    "main.d0e0fcd0.js.map": "/static/js/main.d0e0fcd0.js.map",
+    "496.e6811f3b.chunk.js.map": "/static/js/496.e6811f3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ea33334.css",
+    "static/js/main.d0e0fcd0.js"
+  ]
+}

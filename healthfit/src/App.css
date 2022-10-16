@@ -1,0 +1,17 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  
+}
+
+body{
+  background: rgb(255, 255, 255);
+}
+
+
+
+@media screen and (min-width:76.8rem) {
+  html{
+    font-size: 98.5%;
+  }
+}

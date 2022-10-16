@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif ;
+  font-style: normal; */
+  font-size: 62.5%;
+}
+.contact h2{
+  font-size: 1.2rem;
+  margin: 20px;
+  color: #fff;
+}
+.contact h1{
+  font-size: 1.6rem;
+  color: #000;
+  margin: 15px 30px;
+}
+.heading{
+  text-align: center;
+  margin-top: 5rem;
+  color: #057a8d;
+}
+
+.contact-form{
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+    background: rgb(41, 40, 40);
+    
+}
+
+.contact-form-left {
+  background-color: #057a8d;
+  border-radius: 5px;
+}
+
+.icon-div{
+  display: flex;
+  align-items: center;
+  margin: 5rem 2rem;
+}
+
+.icons {
+  color: white;
+  font-size: 3rem;
+}
+
+.icon-text {
+  color: white;
+  margin-left: 1rem;
+}
+
+/* .contact-form-right {
+  margin: 0 2rem;
+  } */
+
+.contact-input-label {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: .8rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.contact-input {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  color: #696969;
+  padding: 1rem;
+  width: 100%;
+  border: .1rem solid #C4C4C4;
+  border-radius: .5rem;
+}
+
+/* .text-area{
+  rows
+} */
+
+.contact-btn {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 550;
+  color: #fff;
+  background-color: #057a8d;
+  border: .1rem solid #057a8d;
+  border-radius: .5rem;
+  padding: 1rem auto;
+  margin:  3rem 0;
+  width: 50%;
+  height: 4.5rem;
+  cursor: pointer;
+}
+.btn-center{
+  text-align: center;
+}
+
+.contact-btn:hover{
+  background: white;
+  color: #057a8d;
+  transition: 500ms ease-in-out;
+}
+@media screen and (min-width: 46.8rem) {
+  /* html {
+    font-size: 100%;
+  } */
+
+  .contact-form {
+    display: flex;
+    margin: 2rem 5rem;
+    padding: 0;
+  }
+
+  .contact-form-left {
+    width: 40%;
+  }
+  .contact h1{
+    font-size: 1.8rem;
+    color: #000;
+    margin: 20px 50px;
+  }
+
+  .icon-div{
+    margin: 8rem 3rem;
+  }
+
+  .icons{
+    font-size: 2.5rem;
+  }
+
+  .icon-text h2 {
+    font-size: 1.9rem;
+  }
+
+  .icon-text p {
+    font-size: 1.6rem;
+  }
+
+  .contact-form-right {
+    margin: 0 2rem;
+    width: 60%;
+  }
+
+  .contact-btn {
+    width: 65%;
+    display: block;
+    margin: 3rem auto;
+    
+  }
+}
